@@ -5,6 +5,7 @@
 3，使用视频追逐音频的策略实现音视频同步</br>
 4，支持视频镜像操作，黑白彩色转换</br>
 5，FFmpeg version 4.1.3</br>
+6，编译环境：vs2015&qt5.10</br>
 预览</br>
 ![Image text](https://github.com/lqw-git/QTFFmpegSDLPlayer/blob/master/Preview.png)
 </br>
