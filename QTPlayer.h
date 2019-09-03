@@ -1,6 +1,6 @@
 #pragma once
 
-#include <QtWidgets/QWidget>
+#include <QWidget>
 #include "ui_QTPlayer.h"
 #include <QMenu>
 #include <QAction>

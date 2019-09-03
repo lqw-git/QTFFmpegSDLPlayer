@@ -1,9 +1,7 @@
 #pragma once
 #include "PacketQueue.h"
 extern "C" {
-
 #include <libavformat/avformat.h>
-
 }
 class Audio 
 {
@@ -49,6 +47,7 @@ private:
 	bool isPlay = false;
 
 };
+
 /**
 * 向设备发送audio数据的回调函数
 */
@@ -57,4 +56,4 @@ void audioCallback(void* userdata, Uint8 *stream, int len);
 /**
 * 解码Avpacket中的数据填充到缓冲空间
 */
-int audioDecodeFrame(Audio*audio, uint8_t *audioBuffer, int bufferSize);
+    int audioDecodeFrame(Audio*audio, uint8_t *audioBuffer, int bufferSize);

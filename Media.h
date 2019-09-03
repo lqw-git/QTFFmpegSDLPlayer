@@ -3,9 +3,7 @@
 #include "Video.h"
 #include <QMutex>
 extern "C" {
-
-#include <libavformat\avformat.h>
-
+#include <libavformat/avformat.h>
 }
 class Media
 {

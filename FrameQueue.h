@@ -4,8 +4,7 @@
 #include <QMutex>
 #include <QWaitCondition>
 extern "C"{
-
-#include <libavcodec\avcodec.h>
+#include <libavcodec/avcodec.h>
 #include <libavformat/avformat.h>
 }
  
@@ -22,7 +21,5 @@ private:
     std::queue<AVFrame*> queue;	 
 	QMutex mutex;
 	QWaitCondition cond;
-
-
 };
 

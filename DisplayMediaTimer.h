@@ -3,9 +3,8 @@
 #include <QMutex>
  
 extern "C" {
-
-#include <libswscale\swscale.h>
-#include <libavutil\time.h>
+#include <libswscale/swscale.h>
+#include <libavutil/time.h>
 #include <libavformat/avformat.h>
 #include <libswresample/swresample.h>
 }

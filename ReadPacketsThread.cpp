@@ -1,11 +1,9 @@
 #include "ReadPacketsThread.h"
 #include "Media.h"
 #include <QMutexLocker>
-extern "C" {
-
-#include <libavformat\avformat.h>
-
-}
+//extern "C" {
+//#include <libavformat/avformat.h>
+//}
 static bool isExit = false;
 
 //************************************

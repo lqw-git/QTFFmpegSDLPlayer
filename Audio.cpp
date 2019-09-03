@@ -1,9 +1,9 @@
 #include "Audio.h"
 #include "Media.h"
 #include <fstream>
-extern "C" {
-#include <libswresample\swresample.h>
-}
+//extern "C" {
+//#include <libswresample/swresample.h>
+//}
 static int audioVolume = 64;
 Audio::Audio()
 { 

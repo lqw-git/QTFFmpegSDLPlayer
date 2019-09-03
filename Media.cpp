@@ -1,9 +1,9 @@
 #include "Media.h"
 #include "ReadPacketsThread.h"
 #include "DisplayMediaTimer.h"
-extern "C" {
-#include <libavutil/time.h>
-}
+//extern "C" {
+//#include <libavutil/time.h>
+//}
 
 const static long long  MAX_AUDIOQ_SIZE = (5 * 16 * 1024);//最大音频包大小（队列中所有加起来的大小）
 const static long long   MAX_VIDEOQ_SIZE = (5 * 256 * 1024);//最大视频包大小（队列中所有视频包加起来的大小）
