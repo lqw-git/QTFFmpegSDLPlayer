@@ -1,0 +1,12 @@
+Debug/
+Release/
+Win32/
+GeneratedFiles/
+x64\\Debug/
+.vs/
+
+*.obj
+*.Release
+*.Debug
+*.sdf
+Makefile
